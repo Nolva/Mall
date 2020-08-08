@@ -2,32 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54c34b5-44fe-4942-99dd-cce10266c768" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mall-product/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/MallProductApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall-product/src/test/java/com/nolva/MallProductApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_coupon/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_coupon/src/main/java/com/nolva/MallCouponApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_coupon/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_coupon/src/test/java/com/nolva/MallCouponApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_member/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_member/src/main/java/com/nolva/MallMemberApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_member/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_member/src/test/java/com/nolva/MallMemberApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_order/src/main/java/com/nolva/MallOrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_order/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_order/src/test/java/com/nolva/MallOrderApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_ware/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_ware/src/main/java/com/nolva/MallWareApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_ware/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_ware/src/test/java/com/nolva/MallWareApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Mall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mall.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/mall-product/target/" />
@@ -62,7 +37,11 @@
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -123,7 +102,7 @@
             <path>
               <item name="Mall" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_ware" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,7 +115,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596898908979" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596899113999" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -208,12 +187,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596897295645</updated>
-      <workItem from="1596897297001" duration="1602000" />
+      <workItem from="1596897297001" duration="1807000" />
     </task>
+    <task id="LOCAL-00001" summary="项目初始结构创建">
+      <created>1596898952904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596898952904</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1602000" />
+    <option name="totallyTimeSpent" value="1807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="524" y="0" width="1020" height="832" extended-state="0" />
@@ -263,6 +250,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="项目初始结构创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目初始结构创建" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mall-product/mvnw">
       <provider selected="true" editor-type-id="text-editor">
@@ -294,7 +287,11 @@
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="22" column="6" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

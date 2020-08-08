@@ -20,7 +20,8 @@ buildNumber.properties
 **/target/
 
 # .idea
-.idea
+.idea/
+target/
 
 # HELP.md
 **/HELP.md
