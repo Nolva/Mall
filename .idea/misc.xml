@@ -3,4 +3,21 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/mall-product/pom.xml" />
+        <option value="$PROJECT_DIR$/mall_order/pom.xml" />
+        <option value="$PROJECT_DIR$/mall_ware/pom.xml" />
+        <option value="$PROJECT_DIR$/mall_coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/mall_member/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/mall_member/pom.xml" />
+      </set>
+    </option>
+  </component>
 </project>
