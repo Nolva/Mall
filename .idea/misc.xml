@@ -6,12 +6,12 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/mall-product/pom.xml" />
-        <option value="$PROJECT_DIR$/mall_order/pom.xml" />
-        <option value="$PROJECT_DIR$/mall_ware/pom.xml" />
-        <option value="$PROJECT_DIR$/mall_coupon/pom.xml" />
-        <option value="$PROJECT_DIR$/mall_member/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-order/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-member/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-product/pom.xml" />
       </list>
     </option>
   </component>

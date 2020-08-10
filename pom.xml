@@ -11,14 +11,14 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>mall_product</module>
-        <module>mall_order</module>
-        <module>mall_ware</module>
-        <module>mall_coupon</module>
-        <module>mall_member</module>
+        <module>mall-product</module>
+        <module>mall-order</module>
+        <module>mall-ware</module>
+        <module>mall-coupon</module>
+        <module>mall-member</module>
         <module>renren-fast</module>
         <module>renren-generator</module>
-        <module>mall_common</module>
+        <module>mall-common</module>
     </modules>
 
     <dependencies>

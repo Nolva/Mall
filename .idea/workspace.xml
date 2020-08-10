@@ -2,59 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a54c34b5-44fe-4942-99dd-cce10266c768" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/exception/RRException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/xss/HTMLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/xss/SQLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_coupon/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_member/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_order/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_product/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall_ware/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/java/com/nolva/MallCouponApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mall-product/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Mall.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mall.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Note/基础篇01.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_Note/RestfulCRUD.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_Note/Spring Boot 入门.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_Note/Spring Initializer快速创建.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_Note/SpringMVC配置.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_Note/Web开发.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_Note/thymeleaf模板引擎.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_Note/日志.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBoot_Note/配置文件.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/MallProductApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall-product/src/test/java/com/nolva/MallProductApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall_product/src/test/java/com/nolva/MallProductApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_coupon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_coupon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_member/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_member/src/main/java/com/nolva/MallMemberApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_member/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall_product/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_member/src/test/java/com/nolva/MallMemberApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_order/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_order/src/main/java/com/nolva/MallOrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall_product/src/main/java/com/nolva/MallProductApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_order/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_order/src/test/java/com/nolva/MallOrderApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mall_ware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall_ware/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/exception/RRException.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/nolva/common/exception/RRException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/nolva/common/utils/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/PageUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/nolva/common/utils/PageUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/nolva/common/utils/Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/R.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/nolva/common/utils/R.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/xss/HTMLFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/nolva/common/xss/HTMLFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/xss/SQLFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-common/src/main/java/com/nolva/common/xss/SQLFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_coupon/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_coupon/src/main/java/com/nolva/MallCouponApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_coupon/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_coupon/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_coupon/src/test/java/com/nolva/MallCouponApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/src/test/java/com/nolva/MallCouponApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_member/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-coupon/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_product/src/main/java/com/nolva/MallProductApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_product/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_product/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_product/src/test/java/com/nolva/MallProductApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_ware/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_ware/src/main/java/com/nolva/MallWareApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_ware/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_ware/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-ware/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall_ware/src/test/java/com/nolva/MallWareApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/mall-product/target/" />
-    <ignored path="$PROJECT_DIR$/mall_order/target/" />
-    <ignored path="$PROJECT_DIR$/mall_ware/target/" />
-    <ignored path="$PROJECT_DIR$/mall_coupon/target/" />
-    <ignored path="$PROJECT_DIR$/mall_member/target/" />
+    <ignored path="$PROJECT_DIR$/mall-order/target/" />
+    <ignored path="$PROJECT_DIR$/mall-ware/target/" />
+    <ignored path="$PROJECT_DIR$/mall-coupon/target/" />
+    <ignored path="$PROJECT_DIR$/mall-member/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/renren-fast/target/" />
     <ignored path="$PROJECT_DIR$/renren-generator/target/" />
-    <ignored path="$PROJECT_DIR$/mall_common/target/" />
-    <ignored path="$PROJECT_DIR$/mall_product/target/" />
+    <ignored path="$PROJECT_DIR$/mall-common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,45 +60,82 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-generator/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="158">
+              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mall_product/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+            <state relative-caret-position="338">
+              <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/Mall.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>commons-l</find>
       <find>Longblob</find>
+      <find>mybatis</find>
+      <find>mall_</find>
     </findStrings>
+    <replaceStrings>
+      <replace>mall-</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -116,44 +143,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/renren-fast/pom.xml" />
-        <option value="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/dao/AttrAttrgroupRelationDao.java" />
-        <option value="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/PageUtils.java" />
-        <option value="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/R.java" />
-        <option value="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/Constant.java" />
-        <option value="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/utils/Query.java" />
-        <option value="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/xss/SQLFilter.java" />
-        <option value="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/exception/RRExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/xss/XssHttpServletRequestWrapper.java" />
-        <option value="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/controller/AttrAttrgroupRelationController.java" />
-        <option value="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/controller/AttrController.java" />
         <option value="$PROJECT_DIR$/renren-generator/src/main/resources/template/Controller.java.vm" />
         <option value="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/controller/AttrGroupController.java" />
         <option value="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/controller/CategoryBrandRelationController.java" />
         <option value="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/controller/CategoryController.java" />
         <option value="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/controller/CommentReplayController.java" />
-        <option value="$PROJECT_DIR$/mall_member/src/main/java/com/nolva/MallMemberApplication.java" />
-        <option value="$PROJECT_DIR$/mall-product/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-common/src/main/java/com/nolva/common/xss/XssFilter.java" />
+        <option value="$PROJECT_DIR$/mall-product/src/test/java/com/nolva/MallProductApplicationTests.java" />
+        <option value="$PROJECT_DIR$/mall-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-member/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-order/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-order/src/main/java/com/nolva/MallOrderApplication.java" />
+        <option value="$PROJECT_DIR$/mall-ware/src/main/java/com/nolva/ware/entity/UndoLogEntity.java" />
+        <option value="$PROJECT_DIR$/mall-ware/src/main/java/com/nolva/MallWareApplication.java" />
+        <option value="$PROJECT_DIR$/mall-coupon/src/main/java/com/nolva/coupon/feign/CouponFeignService.java" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/java/com/nolva/MallMemberApplication.java" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/java/com/nolva/member/controller/GrowthChangeHistoryController.java" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/java/com/nolva/member/controller/IntegrationChangeHistoryController.java" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/java/com/nolva/member/controller/MemberCollectSpuController.java" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/java/com/nolva/member/controller/MemberCollectSubjectController.java" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/java/com/nolva/member/controller/MemberLevelController.java" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/java/com/nolva/member/controller/MemberLoginLogController.java" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/java/com/nolva/member/controller/MemberReceiveAddressController.java" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/java/com/nolva/member/controller/MemberStatisticsInfoController.java" />
+        <option value="$PROJECT_DIR$/mall-coupon/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/java/com/nolva/member/feign/CouponFeignService.java" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mall-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mall-ware/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-member/src/main/java/com/nolva/member/controller/MemberController.java" />
+        <option value="$PROJECT_DIR$/mall-coupon/src/main/java/com/nolva/coupon/controller/CouponController.java" />
+        <option value="$PROJECT_DIR$/mall-coupon/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mall-coupon/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/mall-coupon/src/main/java/com/nolva/MallCouponApplication.java" />
+        <option value="$PROJECT_DIR$/mall-ware/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mall_common/pom.xml" />
-        <option value="$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/xss/XssFilter.java" />
-        <option value="$PROJECT_DIR$/mall_product/src/test/java/com/nolva/MallProductApplicationTests.java" />
-        <option value="$PROJECT_DIR$/mall_coupon/pom.xml" />
-        <option value="$PROJECT_DIR$/mall_product/src/main/java/com/nolva/MallProductApplication.java" />
-        <option value="$PROJECT_DIR$/mall_member/pom.xml" />
-        <option value="$PROJECT_DIR$/mall_coupon/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mall_member/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mall_order/pom.xml" />
-        <option value="$PROJECT_DIR$/mall_order/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mall_product/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/mall_ware/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/mall-common/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-coupon/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-member/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-order/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-ware/pom.xml" />
         <option value="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" />
-        <option value="$PROJECT_DIR$/mall_ware/pom.xml" />
-        <option value="$PROJECT_DIR$/mall_ware/src/main/java/com/nolva/ware/entity/UndoLogEntity.java" />
+        <option value="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/MallProductApplication.java" />
+        <option value="$PROJECT_DIR$/mall-product/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-product/pom.xml" />
+        <option value="$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/controller/CategoryBrandRelationController.java" />
+        <option value="$PROJECT_DIR$/mall-product/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/mall-product/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -176,43 +216,15 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mall-product" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mall-product" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mall-product" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mall_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mall_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mall_common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mall_member" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="mall-ware" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="36" />
-    <option name="width" value="1275" />
+    <option name="x" value="555" />
+    <option name="width" value="1390" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -220,6 +232,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,87 +243,43 @@
             <path>
               <item name="Mall" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_product" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mall" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="mall_product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionaries" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mall" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mall" type="462c0819:PsiDirectoryNode" />
               <item name="renren-generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mall" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mall" type="462c0819:PsiDirectoryNode" />
-              <item name="renren-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596971219000" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1597061821263" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -324,9 +293,9 @@
       <recent name="com.nolva.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\Java-Project\SpringBoot\Mall\mall_product\src\main\resources" />
-      <recent name="G:\Java-Project\SpringBoot\Mall\mall_common\src\main\java\com\nolva\common" />
-      <recent name="G:\Java-Project\SpringBoot\Mall\mall_common\src\main\java\com\nolva\common\utils" />
+      <recent name="G:\Java-Project\SpringBoot\Mall\mall-product\src\main\resources" />
+      <recent name="G:\Java-Project\SpringBoot\Mall\mall-common\src\main\java\com\nolva\common" />
+      <recent name="G:\Java-Project\SpringBoot\Mall\mall-common\src\main\java\com\nolva\common\utils" />
       <recent name="G:\Java-Project\SpringBoot\Mall" />
     </key>
   </component>
@@ -346,10 +315,11 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.2962963" />
   </component>
-  <component name="RunManager" selected="Spring Boot.MallWareApplication">
+  <component name="RunManager" selected="Spring Boot.MallProductApplication">
     <configuration name="MallProductApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mall_product" />
+      <module name="mall-product" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.nolva.*" />
@@ -365,36 +335,40 @@
       </method>
     </configuration>
     <configuration name="MallCouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mall_coupon" />
+      <module name="mall-coupon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nolva.MallCouponApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MallMemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mall_member" />
+      <module name="mall-member" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nolva.MallMemberApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MallOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mall_order" />
+      <module name="mall-order" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nolva.MallOrderApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MallProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mall_product" />
+      <module name="mall-product" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nolva.MallProductApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MallWareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mall_ware" />
+      <module name="mall-ware" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nolva.MallWareApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -419,6 +393,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MallProductApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.MallCouponApplication" />
+      <item itemvalue="Spring Boot.MallMemberApplication" />
+      <item itemvalue="Spring Boot.MallOrderApplication" />
+      <item itemvalue="Spring Boot.MallProductApplication" />
+      <item itemvalue="Spring Boot.MallWareApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication" />
+      <item itemvalue="Spring Boot.RenrenApplication (1)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.RenrenApplication (1)" />
@@ -440,7 +424,21 @@
       <workItem from="1596960141915" duration="3036000" />
       <workItem from="1596963249999" duration="3076000" />
       <workItem from="1596966340077" duration="5465000" />
-      <workItem from="1596983968040" duration="1701000" />
+      <workItem from="1596983968040" duration="2661000" />
+      <workItem from="1597026154104" duration="629000" />
+      <workItem from="1597037061542" duration="8190000" />
+      <workItem from="1597045453091" duration="8642000" />
+      <workItem from="1597058234904" duration="196000" />
+      <workItem from="1597058439951" duration="119000" />
+      <workItem from="1597058571169" duration="146000" />
+      <workItem from="1597058721549" duration="351000" />
+      <workItem from="1597059201761" duration="264000" />
+      <workItem from="1597059544436" duration="472000" />
+      <workItem from="1597060026564" duration="476000" />
+      <workItem from="1597060680876" duration="28000" />
+      <workItem from="1597060768140" duration="697000" />
+      <workItem from="1597061472824" duration="347000" />
+      <workItem from="1597061827879" duration="83000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始结构创建">
       <created>1596898952904</created>
@@ -456,7 +454,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596899139938</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="20% of mall project">
+      <created>1596987367786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596987367786</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -471,7 +476,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18517000" />
+    <option name="totallyTimeSpent" value="40117000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,10 +488,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="0" width="1020" height="832" extended-state="0" />
+    <frame x="444" y="0" width="1112" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49857143" visible="true" weight="0.33160084" />
-      <window_info id="Structure" order="1" sideWeight="0.50142854" side_tool="true" weight="0.33367983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857143" visible="true" weight="0.21062618" />
+      <window_info id="Structure" order="1" sideWeight="0.50142854" side_tool="true" weight="0.33301708" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
@@ -496,7 +502,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989605" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989605" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -505,424 +511,382 @@
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5010395" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5033512" side_tool="true" weight="0.45892352" />
       <window_info anchor="bottom" id="Problems" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="15" visible="true" />
+      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="JRebel Executor" order="16" />
-      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.5028463" side_tool="true" weight="0.46285716" />
       <window_info anchor="bottom" id="Messages" order="18" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.40428573" />
+      <window_info anchor="bottom" id="Run Dashboard" order="19" sideWeight="0.4966488" weight="0.46" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32841823" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.1427614" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Key Promoter X" order="6" weight="0.32908848" />
       <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49857143" visible="true" weight="0.43243244" />
-      <window_info id="Structure" order="1" sideWeight="0.50142854" side_tool="true" weight="0.33367983" />
-      <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Problems" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Version Control" order="15" />
-      <window_info anchor="bottom" id="JRebel Executor" order="16" />
-      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="18" />
-      <window_info anchor="bottom" id="Run Dashboard" order="19" weight="0.40428573" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32952183" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Key Promoter X" order="6" />
-      <window_info anchor="right" id="Word Book" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Bean Validation" order="11" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="项目初始结构创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目初始结构创建" />
+    <MESSAGE value="20% of mall project" />
+    <option name="LAST_COMMIT_MESSAGE" value="20% of mall project" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/entity/CommentReplayEntity.java">
+    <entry file="file://$PROJECT_DIR$/mall-coupon/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="297">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/entity/ProductAttrValueEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/entity/SkuImagesEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/entity/SkuInfoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/dao/AttrAttrgroupRelationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/dao/AttrDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/dao/CategoryBrandRelationDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/dao/CommentReplayDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/dao/ProductAttrValueDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/dao/SkuImagesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/dao/SkuInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/dao/SpuInfoDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/entity/SkuSaleAttrValueEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/entity/SpuInfoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/maven/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.37/tomcat-embed-core-9.0.37.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/xss/XssHttpServletRequestWrapper.java" />
-    <entry file="file://$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/xss/XssFilter.java" />
-    <entry file="file://$PROJECT_DIR$/mall_common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_common/src/main/java/com/nolva/common/xss/SQLFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/mall-coupon/mall-coupon.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://G:/maven/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2.jar!/com/baomidou/mybatisplus/annotation/IdType.class">
+    <entry file="file://$PROJECT_DIR$/mall-order/mall-order.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-coupon/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        <state relative-caret-position="378">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-member/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-ware/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/src/test/java/com/nolva/MallProductApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/mall-ware/target/classes/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-ware/src/main/java/com/nolva/ware/controller/PurchaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://G:/maven/repository/com/baomidou/mybatis-plus-annotation/3.3.2/mybatis-plus-annotation-3.3.2.jar!/com/baomidou/mybatisplus/annotation/TableId.class">
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/resources/mapper/product/AttrAttrgroupRelationDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-ware/target/classes/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="81">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://G:/maven/repository/com/baomidou/mybatis-plus-boot-starter/3.3.2/mybatis-plus-boot-starter-3.3.2.jar!/com/baomidou/mybatisplus/autoconfigure/MybatisPlusProperties.class">
+    <entry file="file://$PROJECT_DIR$/mall-coupon/src/main/java/com/nolva/MallCouponApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="31" column="53" lean-forward="true" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/maven/repository/com/baomidou/mybatis-plus-extension/3.3.2/mybatis-plus-extension-3.3.2.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/service/BrandService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/test/java/com/nolva/MallProductApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/product/entity/AttrAttrgroupRelationEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="86">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#1739#1740#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_coupon/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/mall-coupon/src/main/java/com/nolva/coupon/controller/CouponController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-member/src/main/java/com/nolva/MallMemberApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-member/src/main/java/com/nolva/member/controller/MemberController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-order/src/main/java/com/nolva/MallOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-order/src/main/java/com/nolva/order/controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-159">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-ware/src/main/java/com/nolva/MallWareApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-ware/src/main/java/com/nolva/ware/controller/WareInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/mall-product.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2673" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-generator/src/main/java/io/renren/RenrenApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-generator/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/nolva/mallproduct/MallProductApplication.java" />
+    <entry file="file://$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-802">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-826">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/controller/CategoryBrandRelationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/controller/CommentReplayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/service/CategoryBrandRelationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/service/CommentReplayService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/service/ProductAttrValueService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/service/SkuInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/service/SpuInfoDescService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/nolva/MallProductApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="23" lean-forward="true" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_coupon/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        <state relative-caret-position="297">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_coupon/src/main/java/com/nolva/MallCouponApplication.java">
+    <entry file="file://$PROJECT_DIR$/mall-product/src/main/java/com/nolva/product/controller/AttrAttrgroupRelationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-151">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/java/com/nolva/MallProductApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_member/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_coupon/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_member/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="9" column="16" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_order/mvnw.cmd">
+    <entry file="file://$PROJECT_DIR$/.idea/dictionaries/10900.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_order/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        <state relative-caret-position="158">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_member/src/main/java/com/nolva/MallMemberApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_member/src/main/java/com/nolva/member/controller/GrowthChangeHistoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="48" column="23" lean-forward="true" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-generator/src/main/java/io/renren/RenrenApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_order/src/main/java/com/nolva/MallOrderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_order/src/main/java/com/nolva/order/controller/CartItemController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_ware/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_ware/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_ware/src/main/java/com/nolva/ware/entity/UndoLogEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_ware/src/main/java/com/nolva/MallWareApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mall_ware/src/main/java/com/nolva/ware/controller/PurchaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-generator/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mall_product/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/Mall.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="338">
+          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -979,11 +943,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|mall_member</last-edited>
+          <last-edited>mall-product</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

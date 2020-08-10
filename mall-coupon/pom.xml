@@ -10,10 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.nolva</groupId>
-    <artifactId>mall-product</artifactId>
+    <artifactId>mall-coupon</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>mall-product</name>
-    <description>商城-商品服务</description>
+    <name>mall-coupon</name>
+    <description>商城项目-优惠券模块</description>
 
     <properties>
         <java.version>11</java.version>
@@ -21,10 +21,9 @@
     </properties>
 
     <dependencies>
-        <!-- Mybatis-Plus -->
         <dependency>
             <groupId>com.nolva</groupId>
-            <artifactId>mall_common</artifactId>
+            <artifactId>mall-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>

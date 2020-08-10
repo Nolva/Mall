@@ -25,6 +25,12 @@ buildNumber.properties
 # HELP.md
 **/HELP.md
 
+# renren-fast
+renren-fast/*
+
+# renren-generator
+renren-generator/*
+
 ## File-based project format:
 *.iws
 *.iml
