@@ -1,2 +1,3 @@
 # Mall
-Mall based on SpringBoot.
+Mall based on SpringBoot Micro-service.
+Includes SpringBoot, SpringCloudAlibaba, Vagrant, Docker...   
