@@ -12,7 +12,7 @@
     <artifactId>mall-gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mall-gateway</name>
-    <description>API网关</description>
+    <description>商城项目-API网关</description>
 
     <properties>
         <java.version>11</java.version>
@@ -25,6 +25,7 @@
             <artifactId>mall-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>

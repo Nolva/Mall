@@ -1,4 +1,4 @@
-package com.nolva.mallgateway;
+package com.nolva;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
