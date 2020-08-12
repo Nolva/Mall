@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: baidu_route
+          uri: https://www.baidu.com
+          predicates:
+            - Query=url,baidu
+
+        - id: aliyun_route
+          uri: https://www.aliyun.com
+          predicates:
+            - Query=url,aliyun
