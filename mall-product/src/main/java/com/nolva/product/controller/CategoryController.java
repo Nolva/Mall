@@ -1,19 +1,16 @@
 package com.nolva.product.controller;
 
-import java.util.Arrays;
-import java.util.Map;
-
+import com.nolva.common.utils.R;
+import com.nolva.product.entity.CategoryEntity;
+import com.nolva.product.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.nolva.product.entity.CategoryEntity;
-import com.nolva.product.service.CategoryService;
-import com.nolva.common.utils.PageUtils;
-import com.nolva.common.utils.R;
+import java.util.Arrays;
+import java.util.List;
 
 
 
@@ -31,13 +28,14 @@ public class CategoryController {
     private CategoryService categoryService;
 
     /**
-     * 列表
+     * 查出所有分类以及子分类，以树形结构组装起来
      */
-    @RequestMapping("/list")
-    public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = categoryService.queryPage(params);
+    @RequestMapping("/list/tree")
+    public R list(){
 
-        return R.ok().put("page", page);
+        List<CategoryEntity> entries = categoryService.listWithTree();
+
+        return R.ok().put("data", entries);
     }
 
 
@@ -73,10 +71,15 @@ public class CategoryController {
 
     /**
      * 删除
+     * @RequestBody:获取请求体，必须发送POST请求(GET请求没有请求体)
+     * SpringMVC自动将请求体的数据(json)，转为对应的对象
      */
     @RequestMapping("/delete")
     public R delete(@RequestBody Long[] catIds){
-		categoryService.removeByIds(Arrays.asList(catIds));
+
+//        1.检查当前删除的菜单是否被别的地方引用
+//		categoryService.removeByIds(Arrays.asList(catIds));
+		categoryService.removeMenuByIds(Arrays.asList(catIds));
 
         return R.ok();
     }

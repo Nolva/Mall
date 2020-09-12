@@ -47,3 +47,15 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+mall-common/src/main/resources/
+mall-common/src/test/
+mall-coupon/src/main/resources/static/
+mall-coupon/src/main/resources/templates/
+mall-member/src/main/resources/static/
+mall-member/src/main/resources/templates/
+mall-order/src/main/resources/static/
+mall-order/src/main/resources/templates/
+mall-product/src/main/resources/static/
+mall-product/src/main/resources/templates/
+mall-ware/src/main/resources/static/
+mall-ware/src/main/resources/templates/

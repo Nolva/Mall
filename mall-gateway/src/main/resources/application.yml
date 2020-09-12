@@ -5,9 +5,28 @@ spring:
         - id: baidu_route
           uri: https://www.baidu.com
           predicates:
-            - Query=url,baidu
+            - Query=url, baidu
 
         - id: aliyun_route
           uri: https://www.aliyun.com
           predicates:
-            - Query=url,aliyun
+            - Query=url, aliyun
+
+        - id: product_route
+          uri: lb://mall-product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /renren-fast/$\{segment}
+
+## 前端项目，/api
+## http://localhost:88/api/captcha.jpg
+## 访问的是：http://renren-fast:8080/api/captcha.jpg
+## 期望的是：http://renren-fast:8080/renren-fast/captcha.jpg
